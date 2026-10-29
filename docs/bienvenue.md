@@ -27,6 +27,6 @@ L’app ne dit jamais « vole » ou « ne vole pas ». Elle explique et compare 
 | ------- | ------ |
 | Tokens | Figma **PFE – Tokens** (collection Semantics) ↔ atelier DS-Studio |
 | Composants | Figma **PFE – Components** ↔ `app/client/ParapenteDS.tsx` |
-| Doc | `workspace/docs/`, versionnée avec le projet |
+| Doc | `desys/docs/`, versionnée avec le design system |
 
 Les aperçus de cette doc utilisent les tokens enregistrés dans l’atelier : une valeur validée dans l’atelier change immédiatement les exemples.

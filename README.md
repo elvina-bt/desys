@@ -73,7 +73,7 @@ Rien n’est automatique ni écrit dans Figma sans accord sur un plan précis.
 | Figma ↔ composants | `npm run figma:components -- figma/private/components.json` (rapport d’écarts)   |
 
 Contrat de nommage : `FIGMA.md` (`color/brand` ↔ `color.brand` ↔ `--color-brand` ↔
-`DesysColor.brand`). Règles de conception : `DESIGN_RULES.md`. Pages de doc : `docs/`.
+`DesysColor.brand`). Règles et usages : pages de `docs/` (principes, accessibilité, ton).
 
 ## Structure
 
