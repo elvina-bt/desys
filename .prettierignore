@@ -1,0 +1,6 @@
+dist/
+docs/
+src/web/generated/
+Sources/Desys/Generated/
+Sources/Desys/Resources/
+.build/

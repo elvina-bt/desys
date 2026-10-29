@@ -1,0 +1,19 @@
+{
+  "$comment": "Les 3 bibliothèques Figma que desys reflète. Lecture par Claude Code (MCP Figma) ; écriture seulement après accord sur un plan précis.",
+  "tokens": {
+    "name": "PFE – Tokens",
+    "fileKey": "90pqKBxgw5j3rUlfZmCM0J",
+    "collection": "Semantics"
+  },
+  "assets": {
+    "name": "PFE – Assets",
+    "fileKey": "XTTp2t19IZhVUnxbvomcNp",
+    "page": "Icônes",
+    "prefix": "Icône/"
+  },
+  "components": {
+    "name": "PFE – Components",
+    "fileKey": "dRoA2PB74Ne8TWXz5Cafin",
+    "section": "Composants PFE"
+  }
+}

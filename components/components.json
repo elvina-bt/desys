@@ -1,0 +1,464 @@
+{
+  "$comment": "Généré par scripts/generate.ts depuis les sources desys. Ne pas modifier à la main.",
+  "figmaFile": "dRoA2PB74Ne8TWXz5Cafin",
+  "components": [
+    {
+      "id": "bouton",
+      "name": "Bouton",
+      "props": [
+        {
+          "name": "Variante",
+          "type": "variant",
+          "options": [
+            "Principal",
+            "Secondaire",
+            "Destructif"
+          ]
+        },
+        {
+          "name": "État",
+          "type": "variant",
+          "options": [
+            "Défaut",
+            "Désactivé"
+          ]
+        },
+        {
+          "name": "Libellé",
+          "type": "text"
+        }
+      ],
+      "stories": [
+        {
+          "id": "bouton--principal",
+          "name": "Principal",
+          "values": {
+            "Variante": "Principal",
+            "État": "Défaut",
+            "Libellé": "Nouvelle sortie"
+          },
+          "figma": {
+            "node": "9:30",
+            "key": "7585fbd206595b4c1922029d986d6d20d70fb173"
+          }
+        },
+        {
+          "id": "bouton--secondaire",
+          "name": "Secondaire",
+          "values": {
+            "Variante": "Secondaire",
+            "État": "Défaut",
+            "Libellé": "Voir les sites"
+          },
+          "figma": {
+            "node": "9:34",
+            "key": "a4b5e0dde9b1dc6285053821fd94f545ded36d6b"
+          }
+        },
+        {
+          "id": "bouton--danger",
+          "name": "Destructif",
+          "values": {
+            "Variante": "Destructif",
+            "État": "Défaut",
+            "Libellé": "Supprimer le vol"
+          },
+          "figma": {
+            "node": "9:38",
+            "key": "70548b0f5656a399e83ebfccf1877c405aed7a4f"
+          }
+        },
+        {
+          "id": "bouton--desactive",
+          "name": "Désactivé",
+          "values": {
+            "Variante": "Principal",
+            "État": "Désactivé",
+            "Libellé": "Indisponible"
+          },
+          "figma": {
+            "node": "9:32",
+            "key": "b557840a5e0e48f2357b09ba961b347b4f87dc16"
+          }
+        },
+        {
+          "id": "bouton--secondaire-desactive",
+          "name": "Secondaire désactivé",
+          "values": {
+            "Variante": "Secondaire",
+            "État": "Désactivé",
+            "Libellé": "Voir les sites"
+          },
+          "figma": {
+            "node": "9:36",
+            "key": "08ae62c271e15c0b301df7bb1a727dc2c4d76c03"
+          }
+        },
+        {
+          "id": "bouton--danger-desactive",
+          "name": "Destructif désactivé",
+          "values": {
+            "Variante": "Destructif",
+            "État": "Désactivé",
+            "Libellé": "Supprimer le vol"
+          },
+          "figma": {
+            "node": "9:40",
+            "key": "33de19babffbfb73d31bbe56b5735be1ad096b81"
+          }
+        }
+      ]
+    },
+    {
+      "id": "titre",
+      "name": "Titre et en-tête de section",
+      "props": [
+        {
+          "name": "Type",
+          "type": "variant",
+          "options": [
+            "Grand titre",
+            "En-tête de section"
+          ]
+        },
+        {
+          "name": "Texte",
+          "type": "text"
+        }
+      ],
+      "stories": [
+        {
+          "id": "titre--grand-titre",
+          "name": "Grand titre",
+          "values": {
+            "Type": "Grand titre",
+            "Texte": "Préparer"
+          },
+          "figma": {
+            "node": "9:43",
+            "key": "b6b0e97cb87e68bae3b7058dc6376f65ae9764d2"
+          }
+        },
+        {
+          "id": "titre--en-tete-section",
+          "name": "En-tête de section",
+          "values": {
+            "Type": "En-tête de section",
+            "Texte": "Prochaine sortie"
+          },
+          "figma": {
+            "node": "9:45",
+            "key": "2fe71328062408c3fc25d65b184faa5fda4c7577"
+          }
+        }
+      ]
+    },
+    {
+      "id": "recherche",
+      "name": "Champ de recherche",
+      "props": [
+        {
+          "name": "Texte indicatif",
+          "type": "text"
+        }
+      ],
+      "stories": [
+        {
+          "id": "recherche--site",
+          "name": "Recherche de site",
+          "values": {
+            "Texte indicatif": "Rechercher un site"
+          },
+          "figma": {
+            "node": "9:48",
+            "key": "e7f9314a9e3dec2fb8725f2956633652e264a349"
+          }
+        }
+      ]
+    },
+    {
+      "id": "carte-prevision",
+      "name": "Carte de prévision",
+      "props": [
+        {
+          "name": "Note",
+          "type": "variant",
+          "options": [
+            "Oui",
+            "Non"
+          ]
+        },
+        {
+          "name": "Lieu",
+          "type": "text"
+        },
+        {
+          "name": "Créneau",
+          "type": "text"
+        },
+        {
+          "name": "Vent",
+          "type": "text"
+        },
+        {
+          "name": "Résumé",
+          "type": "text"
+        },
+        {
+          "name": "Rafales",
+          "type": "text"
+        },
+        {
+          "name": "Plafond",
+          "type": "text"
+        },
+        {
+          "name": "Confiance",
+          "type": "text"
+        },
+        {
+          "name": "Texte de la note",
+          "type": "text"
+        }
+      ],
+      "stories": [
+        {
+          "id": "carte-prevision--confiance-moyenne",
+          "name": "Confiance moyenne",
+          "values": {
+            "Note": "Oui",
+            "Lieu": "Saint-Hilaire",
+            "Créneau": "sam. 14 h–16 h",
+            "Vent": "12–18 km/h",
+            "Résumé": "Ouest, rafales possibles l’après-midi.",
+            "Rafales": "jusqu’à 25 km/h",
+            "Plafond": "2 400 m",
+            "Confiance": "Moyenne · maille 1,3 km",
+            "Texte de la note": "Prévision enregistrée à 9 h 12, pour la comparer après le vol."
+          },
+          "figma": {
+            "node": "11:19",
+            "key": "5f4c5d763826db07ad94007a8b02f5782700d1fa"
+          }
+        },
+        {
+          "id": "carte-prevision--sans-note",
+          "name": "Sans note",
+          "values": {
+            "Note": "Non",
+            "Lieu": "Saint-Hilaire",
+            "Créneau": "sam. 14 h–16 h",
+            "Vent": "12–18 km/h",
+            "Résumé": "Ouest, rafales possibles l’après-midi.",
+            "Rafales": "jusqu’à 25 km/h",
+            "Plafond": "2 400 m",
+            "Confiance": "Élevée · maille 1,3 km",
+            "Texte de la note": ""
+          },
+          "figma": {
+            "node": "11:38",
+            "key": "021c5c9dcd28cb057f08743b80c72dc0578b3428"
+          }
+        }
+      ]
+    },
+    {
+      "id": "badge",
+      "name": "Badge",
+      "props": [
+        {
+          "name": "Libellé",
+          "type": "text"
+        }
+      ],
+      "stories": [
+        {
+          "id": "badge--confiance",
+          "name": "Confiance",
+          "values": {
+            "Libellé": "Confiance moyenne"
+          },
+          "figma": {
+            "node": "9:50",
+            "key": "6147bed703222d499e18c396d1c1cbf5ca769f50"
+          }
+        },
+        {
+          "id": "badge--ecart",
+          "name": "Écart",
+          "values": {
+            "Libellé": "Écart"
+          },
+          "figma": {
+            "node": "9:50",
+            "key": "6147bed703222d499e18c396d1c1cbf5ca769f50"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ligne-liste",
+      "name": "Ligne de liste",
+      "props": [
+        {
+          "name": "Type",
+          "type": "variant",
+          "options": [
+            "Navigation",
+            "Valeur",
+            "Badge",
+            "Interrupteur"
+          ]
+        },
+        {
+          "name": "Libellé",
+          "type": "text"
+        },
+        {
+          "name": "Afficher la valeur",
+          "type": "boolean"
+        },
+        {
+          "name": "Valeur",
+          "type": "text"
+        }
+      ],
+      "stories": [
+        {
+          "id": "ligne-liste--navigation",
+          "name": "Navigation",
+          "values": {
+            "Type": "Navigation",
+            "Libellé": "Comprendre les rafales",
+            "Afficher la valeur": false,
+            "Valeur": "Brevet initial"
+          },
+          "figma": {
+            "node": "10:2",
+            "key": "c0d317d4e3985e784f07781aba97c5fa28408429"
+          }
+        },
+        {
+          "id": "ligne-liste--valeur",
+          "name": "Ligne avec valeur",
+          "values": {
+            "Type": "Valeur",
+            "Libellé": "Plafond",
+            "Afficher la valeur": false,
+            "Valeur": "2 400 m"
+          },
+          "figma": {
+            "node": "10:7",
+            "key": "e326d6aa34f7dacee970a7257b8b64dd23fc587a"
+          }
+        },
+        {
+          "id": "ligne-liste--badge",
+          "name": "Ligne avec badge",
+          "values": {
+            "Type": "Badge",
+            "Libellé": "Confiance",
+            "Afficher la valeur": false,
+            "Valeur": "Moyenne · maille 1,3 km"
+          },
+          "figma": {
+            "node": "10:11",
+            "key": "75dea471293a077eeac753f2272ac5a0e08f7813"
+          }
+        },
+        {
+          "id": "ligne-liste--interrupteur",
+          "name": "Interrupteur",
+          "values": {
+            "Type": "Interrupteur",
+            "Libellé": "Contraste renforcé",
+            "Afficher la valeur": false,
+            "Valeur": ""
+          },
+          "figma": {
+            "node": "10:16",
+            "key": "a6a5ab189af9d9d106ed7d0affd5bbb14eeeef1d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "liste-groupee",
+      "name": "Liste groupée",
+      "props": [],
+      "stories": [
+        {
+          "id": "liste-groupee--reglages",
+          "name": "Réglages",
+          "values": {},
+          "figma": {
+            "node": "10:23",
+            "key": "b91eb3b2148bdda99489a9826e870d7243002063"
+          }
+        }
+      ]
+    },
+    {
+      "id": "barre-onglets",
+      "name": "Barre d’onglets",
+      "props": [
+        {
+          "name": "Onglet actif",
+          "type": "variant",
+          "options": [
+            "Préparer",
+            "Débriefer",
+            "Progresser",
+            "Profil"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "id": "barre-onglets--preparer",
+          "name": "Préparer",
+          "values": {
+            "Onglet actif": "Préparer"
+          },
+          "figma": {
+            "node": "11:57",
+            "key": "b544c7177adadb6744c50be679906dced14caebc"
+          }
+        },
+        {
+          "id": "barre-onglets--debriefer",
+          "name": "Débriefer",
+          "values": {
+            "Onglet actif": "Débriefer"
+          },
+          "figma": {
+            "node": "11:74",
+            "key": "0b280f3f3f8c97b9ba87e7ea26d62f6a53e49816"
+          }
+        },
+        {
+          "id": "barre-onglets--progresser",
+          "name": "Progresser",
+          "values": {
+            "Onglet actif": "Progresser"
+          },
+          "figma": {
+            "node": "11:91",
+            "key": "a43ed3802b0d00a4c26f29874dd2d0daab1da49c"
+          }
+        },
+        {
+          "id": "barre-onglets--profil",
+          "name": "Profil",
+          "values": {
+            "Onglet actif": "Profil"
+          },
+          "figma": {
+            "node": "11:108",
+            "key": "8b76acc8ce1d3e303f20f0d837bfe2166903c297"
+          }
+        }
+      ]
+    }
+  ]
+}

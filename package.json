@@ -1,0 +1,50 @@
+{
+  "name": "desys",
+  "version": "0.1.0",
+  "description": "Design system de l’app parapente PFE : tokens, assets et composants pour le web (React) et iOS (SwiftUI), synchronisés avec Figma.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "files": [
+    "dist",
+    "tokens",
+    "assets",
+    "components",
+    "src/web"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/web/index.d.ts",
+      "default": "./dist/web/index.js"
+    },
+    "./tokens.css": "./src/web/generated/tokens.css",
+    "./styles.css": "./src/web/styles.css",
+    "./tokens.json": "./tokens/tokens.json",
+    "./icons/*": "./assets/icons/*"
+  },
+  "scripts": {
+    "generate": "tsx scripts/generate.ts",
+    "build": "npm run generate && tsc -p tsconfig.build.json",
+    "check": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "format": "prettier --write .",
+    "figma:tokens": "tsx scripts/figma.ts tokens",
+    "figma:tokens:plan": "tsx scripts/figma.ts tokens-plan",
+    "figma:assets": "tsx scripts/figma.ts assets",
+    "figma:components": "tsx scripts/figma.ts components"
+  },
+  "peerDependencies": {
+    "react": ">=19"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "prettier": "3.9.10",
+    "react": "19.3.1",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "zod": "4.6.7"
+  }
+}

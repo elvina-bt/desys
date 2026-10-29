@@ -1,0 +1,21 @@
+/* Généré par scripts/generate.ts depuis les sources desys. Ne pas modifier à la main. */
+:root {
+  --color-brand: #3154C4;
+  --color-brandHover: #243F99;
+  --color-onBrand: #FFFFFF;
+  --color-surface: #FFFFFF;
+  --color-canvas: #F3F5FA;
+  --color-text: #19243D;
+  --color-muted: #536078;
+  --color-border: #BCC5D6;
+  --color-danger: #B4233E;
+  --color-success: #18734B;
+  --color-focus: #7856C8;
+  --font-family: system-ui;
+  --font-body: 16px;
+  --font-heading: 28px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --radius-control: 10px;
+}

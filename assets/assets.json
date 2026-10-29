@@ -1,0 +1,11 @@
+{
+  "$comment": "Manifeste des assets. Source : assets/icons/*.svg (24×24, trait currentColor). figma : nœud et clé du composant dans PFE – Assets, null tant qu’il n’y est pas.",
+  "icons": [
+    { "name": "preparer", "label": "Préparer", "usage": "Onglet Préparer", "figma": null },
+    { "name": "debriefer", "label": "Débriefer", "usage": "Onglet Débriefer", "figma": null },
+    { "name": "progresser", "label": "Progresser", "usage": "Onglet Progresser", "figma": null },
+    { "name": "profil", "label": "Profil", "usage": "Onglet Profil", "figma": null },
+    { "name": "chevron", "label": "Chevron", "usage": "Ligne de liste qui mène à un écran", "figma": null },
+    { "name": "check", "label": "Coche", "usage": "Interrupteur coché", "figma": null }
+  ]
+}
