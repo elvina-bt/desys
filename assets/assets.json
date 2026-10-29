@@ -1,11 +1,59 @@
 {
   "$comment": "Manifeste des assets. Source : assets/icons/*.svg (24×24, trait currentColor). figma : nœud et clé du composant dans PFE – Assets, null tant qu’il n’y est pas.",
   "icons": [
-    { "name": "preparer", "label": "Préparer", "usage": "Onglet Préparer", "figma": null },
-    { "name": "debriefer", "label": "Débriefer", "usage": "Onglet Débriefer", "figma": null },
-    { "name": "progresser", "label": "Progresser", "usage": "Onglet Progresser", "figma": null },
-    { "name": "profil", "label": "Profil", "usage": "Onglet Profil", "figma": null },
-    { "name": "chevron", "label": "Chevron", "usage": "Ligne de liste qui mène à un écran", "figma": null },
-    { "name": "check", "label": "Coche", "usage": "Interrupteur coché", "figma": null }
+    {
+      "name": "preparer",
+      "label": "Préparer",
+      "usage": "Onglet Préparer",
+      "figma": {
+        "node": "8:4",
+        "key": "9e36b4ea277dfa7c1f1f2e6c44477d7f0df3264f"
+      }
+    },
+    {
+      "name": "debriefer",
+      "label": "Débriefer",
+      "usage": "Onglet Débriefer",
+      "figma": {
+        "node": "8:7",
+        "key": "4b692a51d2bf35dbf4eb62cf1d5156daa4545069"
+      }
+    },
+    {
+      "name": "progresser",
+      "label": "Progresser",
+      "usage": "Onglet Progresser",
+      "figma": {
+        "node": "8:10",
+        "key": "aa3c6601cc171ffd7b00a7de5d23991e3896542a"
+      }
+    },
+    {
+      "name": "profil",
+      "label": "Profil",
+      "usage": "Onglet Profil",
+      "figma": {
+        "node": "8:13",
+        "key": "cc4568d44cd9762469f27311b8bb68c120ee31b9"
+      }
+    },
+    {
+      "name": "chevron",
+      "label": "Chevron",
+      "usage": "Ligne de liste qui mène à un écran",
+      "figma": {
+        "node": "8:16",
+        "key": "386142507e5fc307985ba04d770af0d113d55e19"
+      }
+    },
+    {
+      "name": "check",
+      "label": "Coche",
+      "usage": "Interrupteur coché",
+      "figma": {
+        "node": "8:19",
+        "key": "31ae5aece1c62dbe3e43b54805616809878b38f7"
+      }
+    }
   ]
 }

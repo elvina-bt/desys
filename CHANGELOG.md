@@ -1,5 +1,10 @@
 # Journal des versions
 
+## 0.1.1 — 2026-10-29
+
+- 6 icônes créées dans PFE – Assets (page Icônes) depuis le dépôt, puis relues :
+  liens Figma enregistrés dans `assets/assets.json`, tracés iso Figma.
+
 ## 0.1.0 — 2026-10-29
 
 - Création du dépôt : tokens iso PFE – Tokens (relevé du 29/10), 6 icônes,

@@ -1,6 +1,6 @@
 {
   "name": "desys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Design system de l’app parapente PFE : tokens, assets et composants pour le web (React) et iOS (SwiftUI), synchronisés avec Figma.",
   "type": "module",
   "license": "UNLICENSED",

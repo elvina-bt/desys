@@ -36,7 +36,11 @@ for (const icon of PLAN.icons) {
   }
   report.push(`${name} : créée depuis assets/icons/${icon.name}.svg`);
   if (DRY) continue;
-  const frame = figma.createNodeFromSvg(icon.svg);
+  // currentColor (web) n'existe pas dans Figma : trait noir, recolorié dans les
+  // instances. La relecture (read-assets) remet currentColor dans le dépôt.
+  const frame = figma.createNodeFromSvg(
+    icon.svg.replaceAll('currentColor', '#000000'),
+  );
   const component = figma.createComponentFromNode(frame);
   component.name = name;
   component.description = `${icon.usage}. desys : assets/icons/${icon.name}.svg`;
